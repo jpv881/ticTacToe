@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TIC TAC TOE</title>
+    <link rel="shortcut icon" href="">
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="tictac">
+            <div id="divTitle">
+                <h1> TIC TAC TOE</h1>
+            </div>
+            <div id="divTurns">
+                <span>YOU</span>
+                <span>0</span>
+                <span>COMPUTER</span>
+                <span>0</span>
+                <span id="reset">RESET</span>
+            </div>
+            <div id="tic">
+                <div>
+                    <p>X or O?</p>
+                    <p><span id="x">X</span><span id="o">O</span></p>
+                </div>
+                <div id="grid">
+                    <div class="row">
+                        <div id="one" cell="0" class="col">
+                            <span></span>
+                        </div>
+                        <div id="two" cell="1" class="col">
+                            <span></span>
+
+                        </div>
+                        <div id="three" cell="2" class="col">
+                            <span></span>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="four" cell="3" class="col">
+                            <span></span>
+
+                        </div>
+                        <div id="five" cell="4" class="col">
+                            <span></span>
+
+                        </div>
+                        <div id="six" cell="5" class="col">
+                            <span></span>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="seven" cell="6" class="col">
+                            <span></span>
+
+                        </div>
+                        <div id="eight" cell="7" class="col">
+                            <span></span>
+
+                        </div>
+                        <div id="nine" cell="8" class="col">
+                            <span></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="finish">
+                <span></span>
+                <span id="continue">CONTINUE</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>

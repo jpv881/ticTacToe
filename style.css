@@ -1,0 +1,124 @@
+.container{
+    font-family: 'Baloo', cursive;
+}
+
+body{
+    background-color: rgba(76, 175, 80, 0.27);
+}
+
+#divTitle{
+    //margin-top: 25px;
+    text-align: center;
+}
+
+#divTitle h1{
+    color: crimson;
+    font-size: 40px;
+}
+
+#tic{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#divTurns{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    margin-bottom: 20px;
+    color: #2196F3;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#finish{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    margin-top: 20px;
+    color: #2196F3;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#tic p{
+    font-size: 30px;
+}
+
+#tic span{
+    cursor: pointer;
+}
+
+#x{
+    margin-right: 25px;
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    height: 33.3%;
+}
+
+.col{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    display: table;
+}
+
+.col span{
+    font-size: 60px;
+    color: crimson;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#grid{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#one, #four, #seven{
+    border-right: solid 5px crimson;
+}
+
+#two, #five, #eight{
+    border-right: solid 5px crimson;
+}
+
+#one, #two, #three{
+    border-bottom: solid 5px crimson;
+}
+
+#four, #five, #six{
+    border-bottom: solid 5px crimson;
+}
+
+#divTurns > span:nth-child(5){
+    float: right;
+    cursor: pointer;
+}
+
+#divTurns > span:nth-child(1),
+#divTurns > span:nth-child(1){
+    margin-right: 5px;
+}
+
+#divTurns > span:nth-child(2){
+    margin-right: 15px;
+}
+
+#finish > span:nth-child(2){
+    float: right;
+    cursor:pointer;
+}
